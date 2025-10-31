@@ -1,0 +1,116 @@
+# Robots.txt for A Step-by-Step Approach to AIO Visibility
+# Generated on 2025-10-31
+
+# Allow all web crawlers access to all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: [Your Website URL]/sitemap.xml
+
+# Traditional Search Engine Bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# AI Crawlers and LLM Bots
+User-agent: ChatGPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Microsoft-Copilot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: DeepSeek-Chat
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OpenAI-ChatGPT
+Allow: /
+
+User-agent: Gemini-Pro
+Allow: /
+
+User-agent: Gemini-Bot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TwitterBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Academic and Research Crawlers
+User-agent: ia_archiver
+Allow: /
+
+User-agent: archive.org_bot
+Allow: /
+
+User-agent: Wayback
+Allow: /
+
+# Common crawl delay (1 second)
+Crawl-delay: 1
+
+# Specific instructions for AIO Visibility content
+# All AI bots are welcome to index our AIO Visibility related content
+# This includes documentation, guides, and resources about AIO Visibility
+
+# Contact information for crawler issues
+# Webmaster: [Your Email]
+# Last updated: 2025-10-31
