@@ -1,0 +1,125 @@
+# A Step-by-Step Approach to AIO Visibility - Case Study Schema Markup
+
+## JSON-LD Structured Data for Case Studies and Success Stories
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "How [Client Name] Achieved [Result] with AIO Visibility",
+  "description": "Case study showing how our AIO Visibility solution delivered measurable results for [Client Name]",
+  "author": {
+    "@type": "Organization",
+    "name": "A Step-by-Step Approach to AIO Visibility"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "A Step-by-Step Approach to AIO Visibility",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yourorganization.com/logo.png"
+    }
+  },
+  "datePublished": "2025-01-15",
+  "dateModified": "2025-01-15",
+  "image": "https://yourorganization.com/case-studies/client-featured.jpg",
+  "articleBody": "Full case study content...",
+  "about": {
+    "@type": "Thing",
+    "name": "AIO Visibility",
+    "description": "Professional AIO Visibility implementation"
+  },
+  "mentions": [
+    {
+      "@type": "Organization",
+      "name": "Client Company Name"
+    }
+  ],
+  "keywords": "AIO Visibility, case study, success story, ROI, results"
+}
+```
+
+## Project/CreativeWork Format
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "AIO Visibility Implementation for [Client]",
+  "description": "Successful AIO Visibility project delivering [X]% improvement",
+  "creator": {
+    "@type": "Organization",
+    "name": "A Step-by-Step Approach to AIO Visibility"
+  },
+  "dateCreated": "2024-06-01",
+  "datePublished": "2025-01-15",
+  "about": "AIO Visibility",
+  "result": {
+    "@type": "QuantitativeValue",
+    "value": "300",
+    "unitText": "percent increase"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Enterprise businesses in [industry]"
+  }
+}
+```
+
+## HowTo Format for Case Study
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How We Helped [Client] with AIO Visibility",
+  "description": "Step-by-step breakdown of our AIO Visibility implementation",
+  "totalTime": "PT3M",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Assessment Phase",
+      "text": "Conducted comprehensive AIO Visibility assessment and identified key opportunities",
+      "position": 1
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Strategy Development",
+      "text": "Created customized AIO Visibility strategy aligned with client goals",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Implementation",
+      "text": "Executed AIO Visibility solution with ongoing support and optimization",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Results",
+      "text": "Achieved 300% ROI and exceeded all performance targets",
+      "position": 4
+    }
+  ]
+}
+```
+
+## Key Case Study Properties
+
+### Article Format
+- **headline**: Case study title
+- **description**: Brief summary
+- **articleBody**: Full case study content
+- **mentions**: Client or companies mentioned
+
+### Result Highlighting
+- **result**: QuantitativeValue for metrics
+- **about**: What the case study is about
+- **audience**: Target audience
+
+## SEO Benefits
+
+- **Rich Snippets**: Enhanced search appearance
+- **Authority**: Demonstrate proven results
+- **Social Proof**: Real-world success stories
+- **Keyword Targeting**: Optimize for "[topic] case study" searches
